@@ -1,0 +1,100 @@
+.footer {
+    width: 100%;
+    background: #ededed;
+    &__container {
+        width: 80%;
+        margin: auto;
+        gap: 40px;
+        padding: 20px 100px;
+        justify-content: space-around;
+        &--line {
+            width: 1px;
+            height: 300px;
+            background-color: #D4D4D4;
+        }
+       
+        &--left {
+            text-align: end;
+        h6 {
+            font-size: 25px;
+            font-family: $--font-head;
+            color:$--color-dark;
+            font-weight: 700;
+        }
+        ul {
+            list-style-type: none;
+            gap: 25px;
+            li {
+                font-size: 15px;
+                color:$--color-darkgrey;
+                font-family: $--font-text;
+                font-weight: 400;
+                span {
+                    display:block;
+                    font-weight: 800;
+                    margin-bottom:5px;
+                }
+            }
+        }
+    }
+    &--main {
+        width: 50%; 
+       &--heading {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        gap: 10px;
+        align-items:center;
+        h4 {
+            color:$--color-dark;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: $--font-head;
+            }
+       }
+       p {
+        margin: auto;
+        font-size: 15px;
+        font-family: $--font-text;
+        color:$--color-darkgrey;
+        text-align: center;
+        margin: 20px 0;
+       }
+       &--social {
+            gap: 15px;
+            justify-content: center;
+            margin: 40px 0;
+       }
+    }
+    &--right {
+        width: 21%;
+        h4 {
+            color:$--color-dark;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: $--font-head;
+            margin-bottom: 20px;
+        }
+        ul {
+            li {
+                font-size: 15px;
+                font-family: $--font-text;
+                color:$--color-darkgrey;
+                text-align: start;
+            }
+        }
+    }
+}   
+    &__line {
+        width: 100%;
+        height: 1px;
+        background: #d4d4d4;
+        margin-top:61px ;
+    }
+    &__copyright {
+        font-size:15px;
+        text-align: center;
+        padding: 15px 0;
+    }
+   
+}

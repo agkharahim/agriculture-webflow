@@ -1,0 +1,89 @@
+nav {
+    background-color:$--color-nav;
+    padding: 45px 112px;
+    .navbar-logo {
+        padding-right: 100px;
+        gap: 8px;
+        span:last-child {
+            color:$--color-dark;
+            font-family:$--font-head;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+    ul {
+        gap: 28px;
+        padding-right: 70px;
+        a {
+            color: $--color-dark;
+            font-family: $--font-head;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        li:nth-of-type(3) {
+            a {
+            gap: 5px;
+            span {
+                padding-bottom: 5px;
+            }
+            }
+        }
+    }
+    .navbar-lastItem {
+        .search {
+            background-color:$--color-nav-search;
+            border-radius: 36px;
+            padding-right:6px ; 
+            padding-left: 2.5vw;
+           input {
+            border:none;
+            height: 50px;
+            outline: none;
+            background-color:$--color-nav-search;
+            border-radius: 36px;
+            font-size: 10px;
+            
+           }
+        }
+        .shop {
+            background-color:#fff;
+            border-radius: 33px;
+            border: 1px solid #E0E0E0;
+            padding: 5px 1.5vw 5px .5vw;
+            gap: 12px;
+            span {
+                color: $--color-dark;
+                font-family: $--font-head;
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+header {
+    background:#F1EFF0;
+    .header-container {
+        padding-top: 150px;
+        padding-left: 190px;
+        span {
+            font-family: $--font-tail;
+            color:$--color-green;
+            font-size: 25px;
+        }
+        h4 {
+            width: 65%;
+            font-family: $--font-head;
+            color:$--color-dark;
+            font-size: 45px;
+            font-weight: 800;
+            margin-bottom: 23px;
+        }
+    }
+    .header-img {
+        width: 60%;
+        img {
+            width: 100%;
+        }
+    }
+}

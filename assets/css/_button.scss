@@ -1,0 +1,44 @@
+.default-btn {
+    display: flex;
+    padding: 24px 35px 25px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: $--color-dark;
+    border:none;
+    a {
+        color: #FFF;
+        font-family: $--font-head;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+.btn-yellow {
+    background: $--color-yellow;
+    a {
+        color:$--color-dark;
+    }
+}
+
+.btn-white {
+    background:#fff;
+    border:1px solid $--color-dark;
+    a {
+        color:$--color-dark;
+    }
+}
+
+.btn-pagination {
+        padding: 24px 35px 25px 35px;
+        background:$--color-dark;
+        border:none;
+        border-radius:16px;
+        a {
+            color: #FFF;
+            font-family: $--font-head;
+            font-size: 15px;
+            font-weight: 500;
+        }
+}

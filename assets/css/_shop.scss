@@ -1,0 +1,21 @@
+.shop-section {
+    width: 100%;
+    height: 356px;
+    background-image: url(/assets/images/shop/header/Image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    h1 {
+        font-size: 40px;
+        font-family: $--font-head;
+        color:$--color-dark;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding-top: 20vh;
+    }
+}
+
+.ourProducts {
+    padding: 60px 0;
+    background: #EDEDED;
+}
