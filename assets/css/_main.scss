@@ -50,6 +50,7 @@
 
 
 .aboutUs {
+    width: 90%;
     padding: 98px 0;
     display: flex;
     flex-direction: row;
@@ -67,24 +68,24 @@
             margin-right: 200px;
             margin-bottom: 35px;
             h6 {
-            font-family: $--font-tail;
-            color:$--color-green ;
-            font-size: 28px;
-            font-weight: 400;
+                font-family: $--font-tail;
+                color:$--color-green ;
+                font-size: 28px;
+                font-weight: 400;
             }
-        h3 {
-            width: 80%;
-            color:$--color-dark;
-            font-size: 35px;
-            font-weight: 800;
-            font-family: $--font-head;
-            margin-bottom: 10px;
+            h3 {
+                width: 80%;
+                color:$--color-dark;
+                font-size: 35px;
+                font-weight: 800;
+                font-family: $--font-head;
+                margin-bottom: 10px;
             }
-        p {
-            font-size: 15px;
-            font-family: $--font-text;
-            font-weight: 400;
-            color: #525C60;
+            p {
+                font-size: 15px;
+                font-family: $--font-text;
+                font-weight: 400;
+                color: #525C60;
             }
         }
         .aboutMid {
@@ -304,7 +305,7 @@
             justify-content: center;
             align-items:center;
             border: 10px solid #FCFCFC;
-            border-radius:500%;
+            border-radius:50%;
             background-color:#F1F1F1;
             .chart-content {
                 color:$--color-dark;
@@ -547,8 +548,6 @@
             left: 3%;
             .news-img {
                 width: 90%;
-                
-                
                 img {
                     width: 100%;
                     border-radius: 25px;
@@ -611,7 +610,6 @@
 }
 
 
-
 .newsLetter {
     width: 100%;
     background: #EDEDED;
@@ -622,6 +620,7 @@
         background: url(/assets/images/letter/newsletter.png);
         background-size: contain;
         background-repeat: no-repeat;
+        border-radius:20px;
        .newsLetter-container {
         width: 90%;
         margin: auto;
