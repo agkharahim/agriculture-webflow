@@ -1098,7 +1098,7 @@ header .header-img img {
   justify-content: space-around;
 }
 .team__container--card--img {
-  width: 90%;
+  width: 100%;
 }
 .team__container--card--img img {
   width: 100%;
@@ -1803,10 +1803,10 @@ header .header-img img {
   .aboutUs .aboutRight .aboutMid .aboutCard img {
     padding: 25px 28px;
   }
-  .aboutUs .aboutRight .aboutMid .aboutCard h6 {
+  .aboutUs .aboutRight .aboutMid .aboutCard .about-card-heading h6 {
     font-size: 14px;
   }
-  .aboutUs .aboutRight .aboutMid .aboutCard p {
+  .aboutUs .aboutRight .aboutMid .aboutCard .about-card-heading p {
     width: 100%;
     font-size: 12px;
   }
@@ -1890,16 +1890,19 @@ header .header-img img {
   .offer .offer-container .offer-down {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 22px;
   }
   .offer .offer-container .offer-down .offerDown-card {
     width: 80%;
+    margin: auto;
   }
   .eco .ecoContainer {
     flex-direction: column;
   }
   .eco .ecoContainer img {
-    width: 100%;
+    width: 70%;
+    height: auto;
+    margin: auto;
   }
   .eco .ecoContainer .ecoContent {
     width: 100%;
@@ -1978,7 +1981,7 @@ header .header-img img {
     width: 90%;
   }
   .newsLetter__bg .newsLetter-container {
-    padding-top: 7vh;
+    padding-top: 5vh;
   }
   .newsLetter__bg .newsLetter-container h4 {
     font-size: 20px;
@@ -1993,7 +1996,7 @@ header .header-img img {
     font-size: 7px;
   }
   .newsLetter__bg .newsLetter-container input[type=submit] {
-    font-size: 8px;
+    font-size: 7px;
   }
   .footer__container {
     width: 90%;
@@ -2031,7 +2034,7 @@ header .header-img img {
     width: 100%;
   }
   .choose-section .choose__img {
-    width: 90%;
+    width: 80%;
   }
   .choose-section__bottom {
     display: grid;
@@ -2044,6 +2047,7 @@ header .header-img img {
   }
   .team__heading {
     width: 80%;
+    margin: auto;
   }
   .team__heading h6 {
     font-size: 20px;
@@ -2055,10 +2059,10 @@ header .header-img img {
     font-size: 13px;
   }
   .team__container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     gap: 30px;
   }
   .weOffer {
@@ -2071,10 +2075,14 @@ header .header-img img {
     font-size: 36px;
   }
   .weOffer__card {
-    width: 90%;
+    width: 60%;
     margin: auto;
     display: grid;
     grid-template-columns: auto;
+    gap: 10vh;
+  }
+  .weOffer__card--img {
+    width: 100%;
   }
   .weOffer__card--item {
     width: 100%;

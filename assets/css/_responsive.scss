@@ -563,8 +563,7 @@
     .aboutUs {
         padding: 30px;
        .about-img {
-           display: none;
-          
+           display: none;   
        }
        .aboutRight {
            margin: 50px 0;
@@ -585,13 +584,16 @@
                     img {
                         padding: 25px 28px;
                     }
-                    h6 {
-                        font-size: 14px;
+                    .about-card-heading {
+                        h6 {
+                            font-size: 14px;
+                        }
+                        p {
+                            width: 100%;
+                            font-size: 12px;
+                        }
                     }
-                    p {
-                        width: 100%;
-                        font-size: 12px;
-                    }
+                    
                 }
            }
        }
@@ -691,9 +693,10 @@
             .offer-down {
                 display: grid;
                 grid-template-columns: 1fr;
-                gap: 10px;
+                gap: 22px;
                 .offerDown-card {
                     width: 80%;
+                    margin: auto;
                 }
             }
         }
@@ -703,7 +706,9 @@
         .ecoContainer {
             flex-direction: column;
             img {
-                width: 100%;
+                width: 70%;
+                height: auto;
+                margin: auto;
             }
             .ecoContent {
                 width: 100%;
@@ -737,7 +742,7 @@
                 h6 {
                     font-size: 20px;
                 }
-                h2 {
+                h2 {   
                     font-size: 32px;
                 }
             }
@@ -793,7 +798,7 @@
         &__bg {
             width: 90%;
             .newsLetter-container {
-                padding-top: 7vh;
+                padding-top: 5vh;
                 h4 {
                     font-size: 20px;
                 }
@@ -805,7 +810,7 @@
                         }
                     }
                     &[type="submit"] {
-                        font-size: 8px;
+                        font-size: 7px;
                     }
                 }   
             }
@@ -867,7 +872,7 @@
                 }    
             }
             &__img {
-                width: 90%;
+                width: 80%;
             }
         }
         &__bottom {
@@ -884,6 +889,7 @@
     .team {
         &__heading {
             width: 80%;
+            margin: auto;
             h6 {
                 font-size:20px;
             }
@@ -895,10 +901,10 @@
             }
         }
         &__container {
-            width: 80%;
+            width: 90%;
             margin:auto;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 2fr;
             gap: 30px;
     }
 }
@@ -914,10 +920,14 @@
         }
     }
     &__card {
-        width: 90%;
+        width: 60%;
         margin: auto;
         display: grid;
         grid-template-columns: auto ;
+        gap: 10vh;
+        &--img {
+            width: 100%;
+        }
         &--item {
             width: 100%;
             margin: auto;
